@@ -1,0 +1,159 @@
+#CheckoutContainer section.setWidth {
+    width: 1150px;
+    margin: 80px auto;
+}
+
+#CheckoutContainer .titles , #CheckoutContainer .Line-11, #CheckoutContainer .Line-22, #CheckoutContainer .Line-33 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#CheckoutContainer .form-details {
+    padding: 50px;
+    border-bottom: 1px solid var(--grey7-color);
+}
+
+
+#CheckoutContainer .form-box h4{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#CheckoutContainer .form-details .titles h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+
+#CheckoutContainer .form-details .Line-11, #CheckoutContainer .form-details .titles, #CheckoutContainer .form-details .Line-22, #CheckoutContainer .form-details .Line-33{
+    margin-bottom: 10px;
+}
+#CheckoutContainer .form-details .Line-11 h4 span
+{
+    color: var(--grey6-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#CheckoutContainer .form-details .Line-11 h4, #CheckoutContainer .form-details .Line-22 h4, #CheckoutContainer .form-details .Line-33 h4
+{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#CheckoutContainer .form-details .Line-33 h2{
+    color: var(--gold-color);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+section#Checkout .bottom-tex {
+    padding: 50px;
+    
+}
+
+section#Checkout .bottom-tex ul.list-1 {
+    list-style-position: inside;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+section#Checkout .bottom-tex p {
+    font-size: 16px;
+    color: var(--grey6-color);
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section#Checkout .bottom-tex p.last{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section#Checkout .bottom-tex ul.list-2{
+    list-style: circle;
+    list-style-position: inside;
+    font-size: 16px;
+    color: var(--grey6-color);
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+section#Checkout .bottom-tex .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 20px 0;
+}
+
+section#Checkout .bottom-tex .btn button {
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+section#Checkout .bottom-tex .btn button:hover{
+    background-color: var(--gold-color);
+    color: white;
+    border-color: white;
+}
+
+form.ant-form .ant-row.ant-form-item-row.css-dev-only-do-not-override-1drr2mu {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+form.ant-form .ant-row.ant-form-item-row.css-dev-only-do-not-override-1drr2mu label {
+    margin-bottom: 10px;
+}
+
+/* section#Checkout .form-inputs input.ant-input {
+    width: 272px;
+    padding: 15px;
+}
+
+section#Checkout input.ant-input {
+    padding: 15px;
+    width: 400px;
+} */
+
+section#Checkout .form-box .ant-form-item-control , section#Checkout .form-box .ant-input-number.ant-input-number-in-form-item {
+    max-width: 100%;
+    width: 100%;
+
+}
+
+section#Checkout .form-inputs .ant-form-item-control-input-content {
+    max-width: 100%;
+    width: 240px;
+}
+
+section#Checkout .form-box input.ant-input, section#Checkout .form-box input.ant-input-number-input {
+
+    padding: 15px;
+}
+
+section#Checkout .form-box .ant-select.ant-select-outlined.ant-select-in-form-item {
+    height: 50px;
+}

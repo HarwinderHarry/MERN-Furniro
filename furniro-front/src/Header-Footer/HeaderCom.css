@@ -1,0 +1,17 @@
+div#Headercontainer {
+    background-color: var(--white-color);
+    padding: 15px 0;
+}
+
+#Headercontainer section.setWidth {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+#Headercontainer ul.ant-menu-overflow.ant-menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    border: none;
+}
+

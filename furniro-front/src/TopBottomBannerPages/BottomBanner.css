@@ -1,0 +1,35 @@
+section#bottombanner {
+    background-color: var(--pink3-color);
+    padding: 60px 0;
+}
+
+section#bottombanner .boxesSet {
+    width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section#bottombanner .boxesSet .boxset-1 , section#bottombanner .boxesSet .boxset-2 , section#bottombanner .boxesSet .boxset-3 , section#bottombanner .boxesSet .boxset-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#bottombanner .boxesSet .boxset-1 .logImg, section#bottombanner .boxesSet .boxset-2 .logImg, section#bottombanner .boxesSet .boxset-3 .logImg, section#bottombanner .boxesSet .boxset-4 .logImg{
+    margin-right: 15px;
+}
+
+section#bottombanner .boxesSet h3 {
+    font-size: 25px;
+    color: var(--grey8-color);
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section#bottombanner .boxesSet h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--grey4-color);
+}

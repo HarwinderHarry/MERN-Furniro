@@ -1,0 +1,53 @@
+#ContactContainer section.setWidth {
+    width: 1050px;
+    margin: 80px auto;
+}
+
+#ContactContainer section#Contact h4 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#ContactContainer section#Contact p {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    color: var(--grey6-color);
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+section#Contact-2 .contact-box .box {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+section#Contact-2 .contact-box {
+    margin-top: 20px;
+}
+
+section#Contact-2 .contact-box .box  .icon {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+section#Contact-2 .contact-box .box h2{
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+
+section#Contact-2 .contact-box .box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+section#Contact-2 .btns button.ant-btn {
+    background-color: var(--gold-color);
+    width: 180px;
+    height: 45px;
+    margin-top: 50px;
+    font-size: 16px;
+}

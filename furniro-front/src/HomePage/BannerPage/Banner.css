@@ -1,0 +1,57 @@
+section#Banner{
+    background-image: url('/public/imgs/bannerbackimg.png');
+    max-height: 700px;
+    height: 600px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerBox {
+    background-color: #FFF3E3;
+   padding: 35px 50px;
+   border-radius: 10px;
+   max-width: 6800px;
+    width: 680px;
+}
+
+section#Banner .boxData h4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+section#Banner .boxData h1{
+ color: var(--gold-color);
+ font-size: 52px;
+ font-weight: 700;
+ line-height: 65px;
+ margin-bottom: 12px;
+}
+
+section#Banner .boxData p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+section#Banner .boxData button {
+    color: var(--white-color);
+    border: none;
+    background-color: var(--gold-color);
+    width: 30%;
+    padding: 18px 0;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid var(--gold-color);
+}
+
+section#Banner .boxData button:hover{
+    background-color: var(--white-color);
+    color:var(--gold-color);
+
+}

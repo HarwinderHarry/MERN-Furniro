@@ -1,0 +1,41 @@
+section#Topbanner {
+  background-image: url(/public/imgs/bannerbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    max-height: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#Topbanner .box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+section#Topbanner .box-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+section#Topbanner .box-1 h3 {
+    font-size: 46px;
+    font-weight: 500;
+}
+
+section#Topbanner .box-2 h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section#Topbanner .box-2 h4, section#Topbanner .box-2 span{
+    font-size: 16px;
+    font-weight: 600;
+}

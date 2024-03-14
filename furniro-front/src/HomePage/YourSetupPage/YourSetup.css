@@ -1,0 +1,18 @@
+div#SetupContainer {
+    padding: 30px 0;
+}
+
+div#SetupContainer section#Setup h4{
+    font-size: 20px;
+    text-align: center;
+    color: var(--grey5-color);
+    line-height: 32px;
+    font-weight: 600;
+}
+
+div#SetupContainer section#Setup h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--grey2-color);
+}
